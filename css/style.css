@@ -1,9 +1,16 @@
-
+/* navbar */
 .menu{
     background-color:rgb(60, 61, 61);
     position: fixed;
     z-index: 1;
-    width: 90em;
+    width: 100%;
+    padding: 0px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .titulo{
     font-family: 'Indie Flower', cursive;
@@ -20,11 +27,12 @@
     text-decoration: none;
     background-color: #F8E006;
 }
+/* Presentacion */
 button{
     color: white;
 }
 .imagenheader{
-    width: 89.1em;
+    width: 1349px;
     z-index: -1;
 }
 .letras{
@@ -46,10 +54,40 @@ button{
     background-color: #F8E006;
     width: 200px;
 }
-.tituloServicios{
-    text-align: center;
-}
-.imgServicios{
-    display: inline-block;
 
+/* Seccion Servicios */
+.tituloServicio{
+    text-align: center;
+    margin-top: 150px;
+}
+.tituloServicio h1{
+    font-family: 'Roboto', serif;
+    font-size: 4em;
+}
+.tituloServicio p{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
+}
+.servicio1, .servicio2 , .servicio3{
+    display: inline-block;
+}
+.icon{
+    border-radius: 50px;
+    background-size: 100px;
+    background-color: #F8E006;
+    color: white;
+}
+/* seccion portafolio */
+.portafolio{
+    background-color: #E9E5E5;
+}
+.carTitulo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+.parrafo{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #C4BEBE;
 }
