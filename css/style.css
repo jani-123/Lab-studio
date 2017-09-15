@@ -38,7 +38,7 @@ button{
 .letras{
     position: absolute;
     top: 300px;
-    left: 310px;
+    left: 70px;
     color: white;
     text-align: center;
 }
@@ -58,7 +58,7 @@ button{
 /* Seccion Servicios */
 .tituloServicio{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 40px;
 }
 .tituloServicio h1{
     font-family: 'Roboto', serif;
@@ -68,18 +68,41 @@ button{
     font-family: 'Alegreya', cursive;
     color: #B4AFAF;
 }
-.servicio1, .servicio2 , .servicio3{
-    display: inline-block;
-}
-.icon{
-    border-radius: 50px;
-    background-size: 100px;
+.icon i{
+    border-radius: 120px;
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 80px;
     background-color: #F8E006;
+    background-position-y: 80px;
     color: white;
+}
+.textoServicio{
+    margin-bottom: 80px;
+}
+.textoServicio h3{
+    font-family: 'Roboto', serif;
+    text-align: center;
+}
+.textoServicio p{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
 }
 /* seccion portafolio */
 .portafolio{
     background-color: #E9E5E5;
+    text-align: center;
+}
+.tituloPortafolio h1{
+    margin-top: 100px;
+    font-family: 'Roboto', serif;
+    font-size: 4em;
+}
+.tituloPortafolio p{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
+    margin-bottom: 100px;
 }
 .carTitulo{
     font-family: 'Roboto', sans-serif;
@@ -90,4 +113,88 @@ button{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #C4BEBE;
+}
+/* Seccion About */
+.tituloAbout{
+    margin-top: 130px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.tituloAbout h1{
+    font-family: 'Roboto', serif;
+    font-size: 4em;
+}
+.tituloAbout p{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
+}
+#about , .row {
+    margin-bottom: 50px;
+}
+.titleCar{
+    font-family: 'Roboto', serif;
+}
+.parratCar{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
+}
+.redondo {
+    background-color: yellow;
+    border-radius: 300px;
+    color: white;
+    width: 160px;
+    height: 160px;
+    margin-left: 36%;
+    text-align: center;
+}
+.redondo h3{
+    margin-top: 40px;
+}
+/* Secion team */
+.team{
+    background-color: #E9E5E5;
+}
+.tituloTeam{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.tituloTeam h1{
+    font-family: 'Roboto', serif;
+    font-size: 4em;
+}
+.tituloTeam p{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
+}
+.imagenes{
+    background-position: center;
+}
+.imagenes img{
+    margin-left: 70px;
+}
+.nombres h3{
+    font-family: 'Roboto', serif;
+    font-size: 2em;
+    margin-left: 90px;
+}
+.nombres p{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
+    margin-left: 130px;
+}
+.iconitos {
+    margin-left: 150px;
+}
+.parrafoFinal{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+/* Seccion Logos */
+.logos{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
