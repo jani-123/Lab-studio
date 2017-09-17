@@ -15,8 +15,8 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.0.3/css/intlTelInput.css">  -->
 </head>
 
-<body>
-    <nav class="navbar-expand-lg menu">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+    <nav class="navbar-expand-lg menu" id="myScrollspy">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -28,10 +28,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav pull-right listas">
                     <li><a href="#SERVICES">SERVICES</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#PORTFOLIO">PORTFOLIO</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ABOUT">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#TEAM">TEAM</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#CONTACT">CONTACT</a></li>
+                    <li class="nav-item"><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                    <li class="nav-item"><a href="#ABOUT">ABOUT</a></li>
+                    <li class="nav-item"><a href="#TEAM">TEAM</a></li>
+                    <li class="nav-item"><a href="#CONTACT">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -48,46 +48,46 @@
             </div>
         </div>
     </div>
-    <section class="services" href="#SERVICES">
+    <section class="services" id="SERVICES">
         <div class="container tituloServicio">
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 tituloServicio">
                     <h1>SERVICES</h1>
                     <p>Loren ipsum dolor it amet consectetur.</p>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 icon">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 icon">
                     <i class="fa fa-shopping-cart fa-5x icon" aria-hidden="true"></i>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 icon">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 icon">
                     <i class="fa fa-laptop fa-5x icon" aria-hidden="true"></i>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 icon">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 icon">
                     <i class="fa fa-lock fa-5x icon" aria-hidden="true"></i>
                 </div>
 
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <h3>E-Commerce</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit. Minima maxime quam architecto quo inventore<br>                        harum ex magni, dicta impedit</p>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <h3>Responsive</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit. Minima maxime quam architecto quo inventore<br>                        harum ex magni, dicta impedit</p>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <h3>Web Security</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit. Minima maxime quam architecto quo inventore<br>                        harum ex magni, dicta impedit</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="portafolio">
+    <section class="portafolio" id="PORTFOLIO">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 tituloPortafolio">
                     <h1>PORTFOLIO</h1>
                     <p>Loren ipsum dolor it amet consectetur.</p>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="thumbnail">
                         <img src="img/roundicons-free.png" alt="" style="height: 250px;">
                         <div class="caption">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="thumbnail">
                         <img src="img/startup-framework.png" alt="">
                         <div class="caption">
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="thumbnail">
                         <img src="img/treehouse.png" alt="">
                         <div class="caption">
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="thumbnail">
                         <img src="img/golden.png" alt="">
                         <div class="caption">
@@ -123,7 +123,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="thumbnail">
                         <img src="img/escape.png" alt="">
                         <div class="caption">
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
                     <div class="thumbnail">
                         <img src="img/dreams.png" alt="">
                         <div class="caption">
@@ -144,7 +144,7 @@
             </div>
         </div>
     </section>
-    <section id="about" class="container">
+    <section id="about" class="container" id="ABOUT">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 tituloAbout">
@@ -193,52 +193,52 @@
                 </div>
             </div>
             <div class="row gray_bg">
-                <div class="col-lg-4 col-md-4 col-md-offset-4 col-lg-offset-4 col-xs-3 col-sm-3 pd-10 redondo">
+                <div class="col-lg-4 col-md-4 col-md-offset-4 col-lg-offset-4 col-xs-12 col-sm-3 pd-10 redondo">
                     <h3>BE PART<br>OF OUR<br>STORY!</h3>
                 </div>
             </div>
         </div>
     </section>
-    <section class="team">
+    <section class="team" id="TEAM">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 tituloTeam">
-                    <h1>SERVICES</h1>
+                    <h1>TEAM</h1>
                     <p>Loren ipsum dolor it amet consectetur.</p>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 imagenes">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 imagenes">
                     <img src="img/persona1.jpg" class="img-circle">
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 imagenes">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 imagenes">
                     <img src="img/persona2.jpg" class="img-circle">
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 imagenes">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 imagenes">
                     <img src="img/persona3.jpg" class="img-circle">
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 nombres">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nombres">
                     <h3>Kay Garland</h3>
                     <p>Lead Designer</p>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 nombres">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nombres">
                     <h3>Larry Parker</h3>
                     <p>Lead Marketer</p>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 nombres">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 nombres">
                     <h3>Diana Pertersen</h3>
                     <p>Lead Developer</p>
                 </div>
                 <div class="iconitos">
-                    <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 redes">
+                    <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 redes">
                         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
                         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                     </div>
-                    <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 redes">
+                    <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 redes">
                         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
                         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                     </div>
-                    <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 redes">
+                    <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4 redes">
                         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
                         <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
@@ -253,37 +253,72 @@
     <section class="logos">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 imagenes">
+                <div class="col-md-3 col-xs-12 col-sm-3 col-lg-3 imagenes">
                     <img src="img/envato.jpg">
                 </div>
-                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 imagenes">
+                <div class="col-md-3 col-xs-12 col-sm-3 col-lg-3 imagenes">
                     <img src="img/designmodo.jpg">
                 </div>
-                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 imagenes">
+                <div class="col-md-3 col-xs-12 col-sm-3 col-lg-3 imagenes">
                     <img src="img/themeforest.jpg">
                 </div>
-                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3 imagenes">
+                <div class="col-md-3 col-xs-12 col-sm-3 col-lg-3 imagenes">
                     <img src="img/creative-market.jpg">
                 </div>
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contacto" id="CONTACT">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
                     <img src="img/map-image.png">
                 </div>
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 tituloContact">
+                    <h1>CONTACT US</h1>
+                    <p>Loren ipsum dolor it amet consectetur.</p>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6 grupoInput">
+                    <div class="input-group input-group-lg nombre">
+                        <input type="text" class="form-control" id="nombre" placeholder="YOUR NAME*" aria-describedby="sizing-addon1" required>
+                    </div>
+                    <div class="input-group input-group-lg correo">
+                        <input type="email" class="form-control" id="correo" placeholder="YOUR EMAIL*" aria-describedby="sizing-addon1" required>
+                    </div>
+                    <div class="input-group input-group-lg telefono">
+                        <input type="number" class="form-control" id="telefono" maxlength="9" placeholder="YOUR PHONE*" aria-describedby="sizing-addon1" required>
+                    </div>
+                </div>
+                <div class="form-group col-md-6 col-xs-12 col-sm-6 col-lg-6 comentario">
+                    <textarea class="form-control" rows="5" id="comentario" placeholder="YOUR MESSAGE*" required></textarea>
+                </div>
+                <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <button class="btn btn-lg" id="btnContacto">SEND MESSAGE</button>
+                </div>
             </div>
         </div>
     </section>
-
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
+                    <p>Copyright <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> Your Website 2016</p>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
+                    <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-4 col-lg-4">
+                    <p style="color:#F3AA57;">Privacy Police Terms of Use</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/1625bb79ec.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.0.3/js/intlTelInput.min.js"></script> -->
 </body>
-
 </html>

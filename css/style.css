@@ -198,3 +198,80 @@ button{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+/* Seccion contacto */
+.contacto{
+    background-color:rgb(60, 61, 61);
+}
+.contacto img{
+    margin-left: -150px;
+    z-index: -1;
+}
+.tituloContact{
+    text-align: center;
+    margin-top: -600px;
+}
+.tituloContact h1{
+    font-family: 'Roboto', serif;
+    font-size: 4em;
+    color: white;
+}
+.tituloContact p{
+    font-family: 'Alegreya', cursive;
+    color: #B4AFAF;
+}
+.grupoInput{
+    margin-top: -400px;
+}
+.comentario{
+    margin-top: -400px;
+    margin-left: 50%;
+}
+#comentario{
+    height: 200px;
+}
+.nombre{
+    margin-bottom: 30px;
+    width: 400px;
+    color: #EBE7E7;
+}
+.correo{
+    margin-bottom: 30px;
+    width: 400px;
+}
+.telefono{
+    margin-bottom: 30px;
+    width: 400px;
+    color: #EBE7E7;
+}
+.contacto button{
+    background-color: yellow;
+    margin-top: -200px;
+    margin-left: 40%;
+}
+/* footer */
+footer{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+/* Animacion validacion */
+.error{
+    background-color: #D3BE7A;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+}
+.error:before{
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    left: -16px;
+    position: absolute;
+    top: 5px;
+}
