@@ -1,8 +1,11 @@
+/**{
+    outline: 1px solid red;
+}*/
 /* navbar */
 .menu{
     background-color:rgb(60, 61, 61);
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     width: 100%;
     padding: 0px;
 }
@@ -32,23 +35,55 @@ button{
     color: white;
 }
 .imagenheader{
-    width: 1349px;
+    /*width: 1349px;*/
+    width: 100%;
+    height: 100vh;
     z-index: -1;
 }
 .letras{
     position: absolute;
-    top: 300px;
-    left: 70px;
+    top: 40%;
+    /*left: 70px;*/
     color: white;
     text-align: center;
+    padding-left: 6%;
 }
 .letras h3{
     font-family: 'Indie Flower', serif;
-    font-size: 5em;
+    font-size: 5.2em;
 }
 .letras h1{
     font-family: 'Alegreya', serif;
-    font-size: 5em;
+    font-size: 6.2em;
+}
+@media screen and (max-width: 700px) and (min-width: 0px){
+    .letras h3{
+        font-family: 'Indie Flower', serif;
+        font-size: 3em;
+    }
+    .letras h1{
+        font-family: 'Alegreya', serif;
+        font-size: 4em;
+    }
+    .letras{
+        padding-left: 10%;
+        position: absolute;
+        top: 30%;
+        /*left: 70px;*/
+        color: white;
+        text-align: center;
+    }
+    .icon i {
+        border-radius: 120px;
+        width: 150px;
+        height: 150px;
+        /* margin-left: 80px; */
+        padding-top: 9%;
+        margin-top: 5%;
+        background-color: #F8E006;
+        background-position-y: 80px;
+        color: white;
+    }
 }
 .letras button{
     background-color: #F8E006;
@@ -68,12 +103,13 @@ button{
     font-family: 'Alegreya', cursive;
     color: #B4AFAF;
 }
-.icon i{
+.icon i {
     border-radius: 120px;
     width: 150px;
     height: 150px;
-    margin-left: 80px;
-    margin-top: 80px;
+    /* margin-left: 80px; */
+    padding-top: 10%;
+    margin-top: 5%;
     background-color: #F8E006;
     background-position-y: 80px;
     color: white;
@@ -95,14 +131,14 @@ button{
     text-align: center;
 }
 .tituloPortafolio h1{
-    margin-top: 100px;
+    margin-top: 8%;
     font-family: 'Roboto', serif;
     font-size: 4em;
 }
 .tituloPortafolio p{
     font-family: 'Alegreya', cursive;
     color: #B4AFAF;
-    margin-bottom: 100px;
+    margin-bottom: 7%;
 }
 .carTitulo{
     font-family: 'Roboto', sans-serif;
@@ -115,10 +151,10 @@ button{
     color: #C4BEBE;
 }
 /* Seccion About */
-.tituloAbout{
-    margin-top: 130px;
+.tituloAbout {
+    margin-top: 8%;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 7%;
 }
 .tituloAbout h1{
     font-family: 'Roboto', serif;
@@ -154,9 +190,9 @@ button{
 .team{
     background-color: #E9E5E5;
 }
-.tituloTeam{
-    margin-top: 80px;
-    margin-bottom: 80px;
+.tituloTeam {
+    margin-top: 8%;
+    margin-bottom: 7%;
     text-align: center;
 }
 .tituloTeam h1{
@@ -171,32 +207,32 @@ button{
     background-position: center;
 }
 .imagenes img{
-    margin-left: 70px;
+   /* margin-left: 70px;*/
 }
 .nombres h3{
     font-family: 'Roboto', serif;
     font-size: 2em;
-    margin-left: 90px;
+   /* margin-left: 90px;*/
 }
 .nombres p{
     font-family: 'Alegreya', cursive;
     color: #B4AFAF;
-    margin-left: 130px;
+    /*margin-left: 130px;*/
 }
 .iconitos {
-    margin-left: 150px;
+    /*margin-left: 150px;*/
 }
 .parrafoFinal{
     font-family: 'Alegreya', cursive;
     color: #B4AFAF;
     text-align: center;
-    margin-left: 60px;
+    /*margin-left: 60px;*/
     margin-top: 50px;
 }
 /* Seccion Logos */
 .logos{
     margin-top: 50px;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 /* Seccion contacto */
 .contacto{
@@ -205,10 +241,11 @@ button{
 .contacto img{
     margin-left: -150px;
     z-index: -1;
+    width: 100%;
 }
 .tituloContact{
     text-align: center;
-    margin-top: -600px;
+    /*margin-top: -600px;*/
 }
 .tituloContact h1{
     font-family: 'Roboto', serif;
@@ -219,40 +256,51 @@ button{
     font-family: 'Alegreya', cursive;
     color: #B4AFAF;
 }
+.fondo-contact{
+    background-image: url(../img/map-image.png);
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: #fff;
+    background-color: black;
+}
+/*
 .grupoInput{
-    margin-top: -400px;
+    margin-top: -41%;
 }
 .comentario{
-    margin-top: -400px;
+    margin-top: -41%;
     margin-left: 50%;
-}
+}*/
 #comentario{
     height: 200px;
 }
 .nombre{
     margin-bottom: 30px;
-    width: 400px;
+    width: 100%;
     color: #EBE7E7;
 }
 .correo{
     margin-bottom: 30px;
-    width: 400px;
+    width: 100%;
 }
 .telefono{
     margin-bottom: 30px;
-    width: 400px;
+    width: 100%;
     color: #EBE7E7;
 }
 .contacto button{
     background-color: yellow;
-    margin-top: -200px;
-    margin-left: 40%;
+    /*margin-top: -200px;
+    margin-left: 40%;*/
+}
+.text-center{
+    text-align: center;
 }
 /* footer */
 footer{
-    margin-top: 50px;
+    margin-top: 5%;
     text-align: center;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 /* Animacion validacion */
 .error{
