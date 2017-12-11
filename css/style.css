@@ -66,6 +66,7 @@ button{
         font-size: 4em;
     }
     .letras{
+        padding-left: 10%;
         position: absolute;
         top: 30%;
         /*left: 70px;*/
